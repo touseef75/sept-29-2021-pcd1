@@ -5,17 +5,22 @@ let head2 = document.getElementById("head2");
 let dua2 = document.getElementById("duaimg");
 let meaning = document.getElementById("meaning");
 
+let audio = document.getElementById("audio");
+
 
 let imgarr = [
     {
-        head2s:"سورة الكوثر",
-        meanings : "اِنَّاۤ اَعۡطَيۡنٰكَ الۡكَوۡثَرَؕ‏ فَصَلِّ لِرَبِّكَ وَانۡحَرۡ ؕ‏ <br> اِنَّ شَانِئَكَ هُوَ الۡاَبۡتَرُ",
-        img2 :  "../images/quraan.jpg"
+        head2s:"سورة العصر",
+        meanings : "وَالۡعَصۡرِۙ.‏اِنَّ الۡاِنۡسَانَ لَفِىۡ خُسۡرٍۙ‏.اِلَّا الَّذِيۡنَ اٰمَنُوۡا وَ عَمِلُوۡا الصّٰلِحٰتِ<br>وَتَوَاصَوۡا بِالۡحَقِّ ۙ وَتَوَاصَوۡا بِالصَّبۡر",
+        img2 :  "../images/quraan.jpg",
+        audios : "../audio/surehAsr.mp3",
     },
    {
-        head2s:"سورة الإخلاص",
-        meanings :"قُلۡ هُوَ اللّٰهُ اَحَدٌ‌ۚ‏اللّٰهُ الصَّمَدُ‌ۚ‏ لَمۡ يَلِدۡ وَلَمۡ يُوۡلَدۡۙ‏ <br> وَلَمۡ يَكُنۡ لَّهٗ كُفُوًا اَحَدٌ",
-        img2 :  "../images/quraan.jpg"
+        head2s:"سورة النصر",
+        meanings :"اِذَا جَآءَ نَصۡرُ اللّٰهِ وَالۡفَتۡحُۙ‏.وَرَاَيۡتَ النَّاسَ يَدۡخُلُوۡنَ فِىۡ دِيۡنِ اللّٰهِ اَفۡوَاجًاۙ <br> فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَاسۡتَغۡفِرۡهُ‌ؔؕ اِنَّهٗ كَانَ تَوَّابًا",
+        img2 :  "../images/quraan.jpg",
+        audios : "../audio/surehnsr.mp3",
+
     },  
 ]
 
@@ -25,10 +30,13 @@ incre.addEventListener("click",function(){
         num1 = 0;
     head2.innerHTML = imgarr[num1].head2s;
     meaning.innerHTML = imgarr[num1].meanings;
+    audio.src = imgarr[num1].audios;
     
     }else{
     head2.innerHTML = imgarr[num1].head2s;
     meaning.innerHTML = imgarr[num1].meanings;
+    audio.src = imgarr[num1].audios;
+
 
     num1++;
 

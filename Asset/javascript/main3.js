@@ -1,19 +1,19 @@
 
 let incre = document.getElementById("incre");
-let dicre = document.getElementById("dicre");
 
-let dua = document.getElementById("dua");
 let dua2 = document.getElementById("duaimg");
+
+let audio = document.getElementById("audio");
 
 
 
 let imgarr = [
     {
-        img2 :  "../images/kalma1.jpg"
+        img2 :  "../images/Kalmay-3.jpg"
     },
    {
 
-        img2 :  "../images/kalma2.jpg",
+        img2 :  "../images/Kalmay-4.jpg",
     },
 ]
 

@@ -13,18 +13,24 @@ let imgarr = [
         duas :  "َاَللّٰھُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
         meanings : "الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔",
         img2 :  "../images/sleepinggiff.png",
+        audios : "../audio/SoneSePehleKiDua (1).mp3",
+
     },
    {
        head : "گھر میں داخل ہوتے وقت کی دعا",
         duas :  "اَللّٰھُمَّ اِنِّیْ اَسْئَلُكَ خَیْرَالْمَوْلَجِ وَخَیْرَالْمَخْرَجِ",
         meanings : "اے اللہ عَزَّ وَجَلَّ ! میں تجھ سے داخل ہونے <br> نکلنے کی جگہوں کی بھلائی <br> طلب کرتا ہوں ۔",
         img2 :  "../images/enter home.gif",
+        audios : "../audio/GharMeDakhilHoneKiDua.mp3",
+        
     },
      {
          head : "مسجد سے نکلنے کی دعا",
          duas :  "اَللّٰهُمَّ اِنِّيْ اَسْاَلُکَ مِنْ فَضْلِکَ وَرَحْمَتِک",
         meanings : "’’اے اللہ! میں تجھ سے تیرا فضل <br> تیری رحمت مانگتا ہوں۔‘‘",
         img2 :  "../images/enter home.gif",
+        audios : "../audio/MasjidSeNikalneKiDua.mp3",
+
 
     }
    
@@ -39,6 +45,8 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+    
 
     
     }else{
@@ -46,6 +54,8 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
 
     num1++;
     }
