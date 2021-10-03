@@ -1,0 +1,52 @@
+
+let incre = document.getElementById("incre");
+let dicre = document.getElementById("dicre");
+let audio = document.getElementById("audio")
+let dua = document.getElementById("dua");
+let dua2 = document.getElementById("duaimg");
+let meaning = document.getElementById("meaning");
+let heading = document.getElementById("head");
+
+let imgarr = [
+    {
+        head : "سوتے وقت کی دعا",
+        duas :  "َاَللّٰھُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+        meanings : "الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔",
+        img2 :  "../images/sleepinggiff.png",
+    },
+   {
+       head : "گھر میں داخل ہوتے وقت کی دعا",
+        duas :  "اَللّٰھُمَّ اِنِّیْ اَسْئَلُكَ خَیْرَالْمَوْلَجِ وَخَیْرَالْمَخْرَجِ",
+        meanings : "اے اللہ عَزَّ وَجَلَّ ! میں تجھ سے داخل ہونے <br> نکلنے کی جگہوں کی بھلائی <br> طلب کرتا ہوں ۔",
+        img2 :  "../images/enter home.gif",
+    },
+     {
+         head : "مسجد سے نکلنے کی دعا",
+         duas :  "اَللّٰهُمَّ اِنِّيْ اَسْاَلُکَ مِنْ فَضْلِکَ وَرَحْمَتِک",
+        meanings : "’’اے اللہ! میں تجھ سے تیرا فضل <br> تیری رحمت مانگتا ہوں۔‘‘",
+        img2 :  "../images/enter home.gif",
+
+    }
+   
+   
+]
+
+let num1 = 1;
+incre.addEventListener("click",function(){
+    if(num1 == 3){
+        num1 = 0;
+        heading.innerHTML = imgarr[num1].head;
+    dua.innerHTML = imgarr[num1].duas;
+    meaning.innerHTML = imgarr[num1].meanings;
+    dua2.src = imgarr[num1].img2;
+
+    
+    }else{
+        heading.innerHTML = imgarr[num1].head;
+    dua.innerHTML = imgarr[num1].duas;
+    meaning.innerHTML = imgarr[num1].meanings;
+    dua2.src = imgarr[num1].img2;
+
+    num1++;
+    }
+})

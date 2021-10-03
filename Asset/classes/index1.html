@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.cs/style1.css">
+</head>
+<style>
+      a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: white;
+            text-decoration: none;
+
+        }#dua{
+            transform: scale(2.8);
+            text-align: center;
+        }#incre{
+           transform: scale(0.5);
+        }.img{
+            text-align:center;transform: scale(1.2)
+        }
+        .cont{
+            background-image: url(../images/img17.jpg);
+            background-size: contain;
+            background-position: center;
+            height: 100vh;
+        }
+         @media screen and (max-width:768px){
+			 .cont{
+                 height: 100%;
+                 overflow-x: hidden;
+                 background-size: cover;
+             }
+             #head{
+                 transform: scale(0.7);
+             }#dua{
+                 transform: scale(2.3);
+             }.img{
+                 transform: scale(0.8);
+             }
+		 } 
+</style>
+<body>
+    <div class="container-fluid cont" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"">
+        <br><br><br><br><br><br>
+
+        <div class="head d-flex justify-content-center" style="transform: scale(1.2);color: green;">
+            <h1 id="head">سوتے وقت کی دعا</h1>
+        </div>
+
+        <br>
+
+        <div class="dua1 d-flex row" style="text-align: center;">
+
+            <div class="sect1 col-md-12" style="margin-top: 60px;">
+                <br>
+                <p id="dua">اَللّٰھُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا</p>
+                <br>
+                <p id="meaning" style="transform: scale(1.4);text-align: center;" >الٰہی عزوجل میں تیرے نام پر مرتا ہوں <br> اور جیتا ہوں۔
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img col-7">
+                <img id="duaimg" src="../images/sleepinggiff.png" alt="">
+            </div>
+        <div class="trans2 col-5" style="text-align: end;width: 60%;">
+            <img id="incre" src="../images/next3.png" alt="">
+        </div>
+        </div>
+
+    </div>
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>
