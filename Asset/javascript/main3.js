@@ -9,11 +9,16 @@ let audio = document.getElementById("audio");
 
 let imgarr = [
     {
-        img2 :  "../images/Kalmay-3.jpg"
+        img2 :  "../images/Kalmay-3.jpg",
+
+        audios : "../audio/3rd_kalima.mp3",
+
     },
    {
 
         img2 :  "../images/Kalmay-4.jpg",
+        audios : "../audio/4th_kalima.mp3",
+
     },
 ]
 
@@ -23,9 +28,13 @@ incre.addEventListener("click",function(){
     if(num1 == 2){
         num1 = 0;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
     
     }else{
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
     num1++;
     }
 })
