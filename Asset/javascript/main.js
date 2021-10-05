@@ -1,9 +1,15 @@
 
 let incre = document.getElementById("incre");
 let audio = document.getElementById("audio");
+
+
+
 let dua = document.getElementById("dua");
 let dua2 = document.getElementById("duaimg");
+
+
 let meaning = document.getElementById("meaning");
+
 let heading = document.getElementById("head");
 let change = document.getElementById("img2");
 
@@ -20,8 +26,6 @@ play.addEventListener("click",function(){
         num2 = 0;
       change.src = "../images/pla button.png";
     audio.pause();
-
-
     }
 
 })
