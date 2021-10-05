@@ -20,7 +20,7 @@ let imgarr = [
        head : "گھر میں داخل ہوتے وقت کی دعا",
         duas :  "اَللّٰھُمَّ اِنِّیْ اَسْئَلُكَ خَیْرَالْمَوْلَجِ وَخَیْرَالْمَخْرَجِ",
         meanings : "اے اللہ عَزَّ وَجَلَّ ! میں تجھ سے داخل ہونے <br> نکلنے کی جگہوں کی بھلائی <br> طلب کرتا ہوں ۔",
-        img2 :  "../images/enter home.gif",
+        img2 :  "../images/door.gif",
         audios : "../audio/GharMeDakhilHoneKiDua.mp3",
         
     },
@@ -28,7 +28,7 @@ let imgarr = [
          head : "مسجد سے نکلنے کی دعا",
          duas :  "اَللّٰهُمَّ اِنِّيْ اَسْاَلُکَ مِنْ فَضْلِکَ وَرَحْمَتِک",
         meanings : "’’اے اللہ! میں تجھ سے تیرا فضل <br> تیری رحمت مانگتا ہوں۔‘‘",
-        img2 :  "../images/enter home.gif",
+        img2 :  "../images/door.gif",
         audios : "../audio/MasjidSeNikalneKiDua.mp3",
 
 
