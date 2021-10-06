@@ -31,14 +31,14 @@ play.addEventListener("click",function(){
 
 let imgarr = [
     {
-        img2 :  "../images/sureh asr2.jpg",
+        img2 :  "../images/sureh asr.jpggg.jpg",
 
         audios : "../audio/surehAsr.mp3",
 
     },
    {
 
-        img2 :  "../images/sureh nsr2.jpg",
+        img2 :  "../images/sureh nsr.jpggg.jpg ",
         audios : "../audio/surehnsr.mp3",
 
     },
