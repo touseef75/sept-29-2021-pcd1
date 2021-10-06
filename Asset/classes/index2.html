@@ -13,11 +13,19 @@
     .play {
         width: 100%;
         text-align: center;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        height: 90vh;
     }
 
     .trans2 {
         width: 85%;
         text-align: end;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        height: 90vh;
     }
 
     #incre {
@@ -49,17 +57,17 @@
     <div class="container-fluid cont"
         style="height: 100vh; background-image: url(../images/bk1.jpg);background-size: cover;">
 
-        <div class="dua1 d-flex justify-content-center" style="transform: scale(0.8);">
-            <img id="duaimg" src="../images/sureh asr2.jpg" alt="">
-        </div>
-
-        <br>
         <div class="row">
 
-            <div class="play">
+            <div class="play col-md-2">
                 <img id="img2" src="../images/pla button.png" alt="" width="60">
             </div>
-            <div class="trans2">
+
+            <div class="dua1 col-md-8" style="transform: scale(0.8);">
+                <img id="duaimg" src="../images/sureh asr2.jpg" alt="">
+            </div>
+
+            <div class="trans2 col-md-2" >
                 <img id="incre" src="../images/next6.jpg" alt="" width="300">
             </div>
 
