@@ -68,7 +68,6 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
-    audio.src = imgarr[num1].audios;
     
 
     
@@ -77,9 +76,6 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
-    audio.src = imgarr[num1].audios;
-
-
     num1++;
     }
 })

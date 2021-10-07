@@ -31,7 +31,7 @@ let dua2 = document.getElementById("duaimg");
 
 let imgarr = [
     {
-        img2 :  "../images/water adab.jpg",
+        img2 :  "../images/160991.jpg",
 
         audios : "../audio/3rd_kalima.mp3",
 
