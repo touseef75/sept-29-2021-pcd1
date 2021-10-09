@@ -20,11 +20,11 @@ let play = document.querySelector(".play");
 play.addEventListener("click",function(){
     if(num2 == 0){
     audio.play();
-    change.src = "../images/pause22.png";
+    change.src = "../images/pause7.jpg";
     num2 = 1;
     }else{
         num2 = 0;
-      change.src = "../images/pla button.png";
+      change.src = "../images/play6.png";
     audio.pause();
     }
 
@@ -36,7 +36,7 @@ let imgarr = [
         duas :  "َاَللّٰھُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
         meanings : "الٰہی عزوجل میں تیرے نام پر مرتا ہوں <br> اور جیتا ہوں۔",
         img2 :  "../images/sleepinggiff.png",
-        audios : "../audio/SoneSePehleKiDua (1).mp3",
+        audios : "../audio/mix_14s (audio-joiner.com).mp3",
 
     },
    {
@@ -68,6 +68,8 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
     
 
     
@@ -76,6 +78,8 @@ incre.addEventListener("click",function(){
     dua.innerHTML = imgarr[num1].duas;
     meaning.innerHTML = imgarr[num1].meanings;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
     num1++;
     }
 })
